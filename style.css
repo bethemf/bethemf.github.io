@@ -1,3 +1,7 @@
+@media screen and (min-width:1000px) {
+    .column {
+        width: 100%;
+    }
 body {
     background: url('https://github.com/bethemf/bethemf.github.io/blob/master/background.jpg?raw=true');
     text-align: center;
@@ -13,7 +17,7 @@ background-color: #333;
 float: center;
 color: #f2f2f2;
 text-align: center;
-padding: 1vw 1vw;
+padding: 1%;
 text-decoration: none;
 font-size: 1.5vw;
 }  
@@ -38,11 +42,7 @@ h1 {
     display: table;
     clear: both;
 }
-@media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
-}
+
 h2 {
     text-align: center;
     font-size: 3vw;
@@ -58,4 +58,129 @@ h3 {
     padding: 0.2vw;
     font-size: 1.5vw;
     background-color: rgb(172, 226, 171);
+}
+}
+@media screen and (max-width:320px) {
+    .column {
+        width: 100%;
+    }
+    body {
+        background: url('https://github.com/bethemf/bethemf.github.io/blob/master/background.jpg?raw=true');
+        text-align: center;
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 6vw;
+    }
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    } 
+    .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 5vw;
+    }  
+     .topnav a:hover {
+    background-color:  rgb(172, 226, 171);
+    color: black;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 12vw;
+        color: rgb(56, 79, 102);
+    }
+    .column {
+        float: center;
+        column-count: 2;
+        padding: 15px;
+        font-size: 5vw;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 7vw;
+        color: black; 
+    }
+    h3 {
+        text-align: center;
+        font-size: 8vw;
+        color: black;
+    }
+    .footer {
+        text-align: center;
+        padding: 0.2vw;
+        font-size: 4vw;
+        background-color: rgb(172, 226, 171);
+    }
+}
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 100%;
+    }
+    body {
+        background: url('https://github.com/bethemf/bethemf.github.io/blob/master/background.jpg?raw=true');
+        text-align: center;
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 5vw;
+    }
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    } 
+    .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 3vw;
+    }  
+     .topnav a:hover {
+    background-color:  rgb(172, 226, 171);
+    color: black;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 10vw;
+        color: rgb(56, 79, 102);
+    }
+    .column {
+        float: center;
+        column-count: 2;
+        padding: 15px;
+        font-size: 4vw;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 6vw;
+        color: black; 
+    }
+    h3 {
+        text-align: center;
+        font-size: 7vw;
+        color: black;
+    }
+    .footer {
+        text-align: center;
+        padding: 0.2vw;
+        font-size: 5vw;
+        background-color: rgb(172, 226, 171);
+    }
 }
