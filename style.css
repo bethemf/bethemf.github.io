@@ -95,7 +95,7 @@ h3 {
     }
     .column {
         float: center;
-        column-count: 2;
+        column-count: 1;
         padding: 15px;
         font-size: 5vw;
     }
