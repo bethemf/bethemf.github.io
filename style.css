@@ -93,7 +93,7 @@ h3 {
         font-size: 12vw;
         color: rgb(56, 79, 102);
     }
-    .column {
+    /*.column {
         float: center;
         column-count: 1;
         padding: 15px;
@@ -103,7 +103,7 @@ h3 {
         content: "";
         display: table;
         clear: both;
-    }
+    }*/
     
     h2 {
         text-align: center;
