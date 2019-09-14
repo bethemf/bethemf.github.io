@@ -60,7 +60,7 @@ h3 {
     background-color: rgb(172, 226, 171);
 }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:480px) {
     .column {
         width: 100%;
     }
