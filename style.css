@@ -1,0 +1,61 @@
+body {
+    background: url('background.JPG');
+    text-align: center;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5vw;
+}
+.topnav {
+overflow: hidden;
+background-color: #333;
+} 
+.topnav a {
+float: center;
+color: #f2f2f2;
+text-align: center;
+padding: 1vw 1vw;
+text-decoration: none;
+font-size: 1.5vw;
+}  
+ .topnav a:hover {
+background-color:  rgb(172, 226, 171);
+color: black;
+}
+h1 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 6vw;
+	color: rgb(56, 79, 102);
+}
+.column {
+    float: center;
+    column-count: 2;
+    padding: 15px;
+    font-size: 2vw;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    color: black; 
+}
+h3 {
+    text-align: center;
+    font-size: 3.5vw;
+    color: black;
+}
+.footer {
+    text-align: center;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+    background-color: rgb(172, 226, 171);
+}
